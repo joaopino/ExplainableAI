@@ -2,7 +2,7 @@ import tensorflow as tf
 from transformers import BertTokenizer, TFBertForSequenceClassification
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report
-from ML_pipeline.data_preparation import load_data
+from data_preparation import load_data
 
 def train_bert_model():
     """

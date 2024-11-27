@@ -1,6 +1,6 @@
 from sqlalchemy.orm import sessionmaker
-from data_preprocessing.database_setup.config import engine
-from data_preprocessing.database_setup.models import Comments, Films
+from ML_program.data_preprocessing.database_setup.config import engine
+from ML_program.data_preprocessing.database_setup.models import Comments, Films
 import pandas as pd
 
 # Configuração da sessão SQLAlchemy

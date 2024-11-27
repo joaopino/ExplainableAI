@@ -5,8 +5,8 @@ from tensorflow.keras.models import Model
 from tensorflow.keras.layers import Dense, Dropout, Input, Concatenate
 from tensorflow.keras.utils import to_categorical
 from transformers import BertTokenizer, TFBertModel
-from data_preprocessing.database_setup.models import Films, Comments
-from data_preprocessing.database_setup.config import get_session
+from ML_program.data_preprocessing.database_setup.models import Films, Comments
+from ML_program.data_preprocessing.database_setup.config import get_session
 import tensorflow as tf
 import logging
 

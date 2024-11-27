@@ -3,8 +3,8 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report
 from sentence_transformers import SentenceTransformer
 from sklearn.model_selection import train_test_split
-from data_preprocessing.database_setup.config import get_session
-from data_preprocessing.database_setup.models import Comments, Films
+from ML_program.data_preprocessing.database_setup.config import get_session
+from ML_program.data_preprocessing.database_setup.models import Comments, Films
 
 # Carregar dados da base de dados
 session = get_session()

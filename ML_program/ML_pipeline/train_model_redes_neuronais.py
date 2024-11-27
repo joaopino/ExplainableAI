@@ -6,8 +6,8 @@ from tensorflow.keras.utils import to_categorical
 from sentence_transformers import SentenceTransformer
 from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import classification_report  # Import necessário
-from data_preprocessing.database_setup.config import get_session
-from data_preprocessing.database_setup.models import Comments, Films
+from ML_program.data_preprocessing.database_setup.config import get_session
+from ML_program.data_preprocessing.database_setup.models import Comments, Films
 
 # Carregar dados da base de dados
 session = get_session()

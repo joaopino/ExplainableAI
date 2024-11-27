@@ -1,10 +1,9 @@
 import re
 import spacy
-from sqlalchemy import Column, String
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.exc import IntegrityError
-from data_preprocessing.database_setup.config import engine
-from data_preprocessing.database_setup.models import Comments
+from ML_program.data_preprocessing.database_setup.config import engine
+from ML_program.data_preprocessing.database_setup.models import Comments
 
 # Inicializar spaCy
 nlp = spacy.load("en_core_web_sm")
